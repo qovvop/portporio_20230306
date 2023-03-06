@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/sub.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!--------------------헤더--------------------------->
+    <header>
+        <div id="headertop">
+            <div id="headercenter">
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+                </div>
+
+                <div class="search">
+                    <a href="sub.html" target="_self"><img src="img/searchicon.jpg" alt="search icon"></a>
+                    <a href="#"><span>인테리어 정보,상품검색</span></a>
+                </div>
+
+                <div class="headericon">
+                    <a href="#"><img src="img/cart.png" alt="cart"></a>
+                    <a href="#"><img src="IMG/bookmark.png" alt="bookmark"></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="headerbottom">
+            <div id="nav">
+                <a href="sub.html"><img src="img/cartegoriicon.png" alt="menuicon"></a>
+
+                <div class="leftnav">
+                    <ul>
+                        <li><a href="sub.html">카테고리</a></li>
+                        <li>|</li>
+                        <li><a href="sub.html">스토어</a></li>
+                        <li><a href="sub.html">매거진</a></li>
+                    </ul>
+                </div>
+
+                <div class="rightnav">
+                    <ul>
+                        <li><a href="sub.html">비회원 주문조회</a></li>
+                        <li>|</li>
+                        <li><a href="sub.html">고객센터</a></li>
+                    </ul>
+                </div>
+
+                <div class="login-button">
+                    <p><a href="form.html">로그인/가입</a></p>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+
+
+    <!--------------------------------sub메인-------------------------------------->
+
+    <div id="wrap">
+
+        <div id="buy">
+            <div class="left">
+                <img src="img/sub_img1.jpg" alt="제품이미지" id="cimg" class="w1">
+                <div class="slide">
+                    <ul>
+                        <li><img src="img/sub_img1.jpg" alt="상품이미지"></li>
+                        <li><img src="img/sub_img11.jpg" alt="상품이미지"></li>
+                        <li><img src="img/sub_img12.jpg" alt="상품이미지"></li>
+                        <li><img src="img/sub_img13.jpg" alt="상품이미지"></li>
+                        <li><img src="img/sub_img14.jpg" alt="상품이미지"></li>
+                    </ul>
+                </div>
+            </div>
+            <script>
+                $(document).ready(function () {
+                    $(".slide li:first-child").mouseover(function () {
+                        $("#cimg").attr("src", "img/sub_img1.jpg");
+                    });
+                    $(".slide li:nth-child(2)").mouseover(function () {
+                        $("#cimg").attr("src", "img/sub_img11.jpg");
+                    });
+                    $(".slide li:nth-child(3)").mouseover(function () {
+                        $("#cimg").attr("src", "img/sub_img12.jpg");
+                    });
+                    $(".slide li:nth-child(4)").mouseover(function () {
+                        $("#cimg").attr("src", "img/sub_img13.jpg");
+                    });
+                    $(".slide li:nth-child(5)").mouseover(function () {
+                        $("#cimg").attr("src", "img/sub_img14.jpg");
+                    });
+                });
+            </script>
+
+
+
+            <!------상품구매창------->
+            <div class="right">
+                <div class="toptable">
+                    <table>
+                        <tr>
+                            <td>레트로하우스</td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">라떼 라탄 내추럴 원목 식탁세트</td>
+                        </tr>
+
+                        <tr>
+                            <td><del>341,000</del></td>
+                        </tr>
+
+                        <tr>
+                            <td>24%</td>
+                            <td>259,000원</td>
+                        </tr>
+
+                        <tr>
+                            <td><button>첫구매쿠폰</button></td>
+                            <td>254,000원</td>
+                        </tr>
+
+                        <tr>
+                            <th>구매리뷰</th>
+                            <td>★★★★★ 4.0 리뷰 4개</td>
+                        </tr>
+
+                        <tr>
+                            <th>혜택</th>
+                            <td>최대 2,590p 적립(회원1%적용)</td>
+                        </tr>
+
+                        <tr>
+                            <th>배송비</th>
+                            <td>개당25,000d원</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="bottomtable">
+                    <p>옵션선택</p> <br>
+
+                    <table>
+
+                        <tr>
+                            <td colspan="2">
+                                <select name="select" id="select2">
+                                    <option>색상</option>
+                                    <option>내추럴 259,000d원</option>
+                                    <option>월넛 259,000원</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <button>장바구니 담기</button>
+                                <button>바로구매</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+        <!------상품사진&설명------->
+        <div id="contents">
+            <div class="contentstop">
+                <div class="iventbanner">
+                    <a href="index.html"><img src="img/subbanner.png" alt="이벤트배너"></a>
+                </div>
+                <h2>제품설명</h2>
+            </div>
+            <div class="imgbox1">
+                <img src="img/sub_img2.JPG" alt="상품이미지">
+            </div>
+
+            <div class="imgbox2">
+                <img src="img/sub_img16.JPG" alt="latte">
+            </div>
+
+            <div class="textbox">
+                <p>라떼 라탄 내추럴 원목 식탁세트</p>
+                <p>1000 원형 식탁 +의자2</p>
+            </div>
+
+            
+
+
+
+            <!------상세정보------->
+            <div id="information">
+                <div class="informationbox">
+                    <h5>상세정보</h5>
+                    <table>
+                        <tr>
+                            <th>제품명</th>
+                            <td>투명 쇼케이스 책 정리함</td>
+                        </tr>
+
+                        <tr>
+                            <th>재 질</th>
+                            <td>투명정리함|PET</td>
+                        </tr>
+
+                        <tr>
+                            <th></th>
+                            <td>계단식진열대|아크릴</td>
+                        </tr>
+
+                        <tr>
+                            <th>사이즈</th>
+                            <td>옵션 내용 참조</td>
+                        </tr>
+
+                        <tr>
+                            <th>제조국</th>
+                            <td>중국</td>
+                        </tr>
+
+                        <tr>
+                            <th>제조사</th>
+                            <td>루시아이</td>
+                        </tr>
+                    </table>
+
+                    <p>모니터에 따라 색상 차이가 있을수 있습니다<br>
+                        기재된 사이즈는 실제 사이즈와 측정 오차가 있을수 있습니다.</p>
+                </div>
+
+
+                <!------구매전 확인------->
+                <div class="warning">
+                    <p>구매전 확인</p>
+                    <span>-해당 제품은 조립식으로 <b>직접 조립 후 사용하셔야 합니다.</b><br>
+                        투명 플라스틱 제품 특성상 <b>미세한 이염이나 까짐이 있거나, 스크래치가 많을수 있습니다.</b><br>
+                        위에 기재한 내용은 <b>모든 제품에서 공통적으로 발견되는 특징이며 정상품으로 출고됩니다.</b></span>
+                </div>
+
+
+                <!------상품정보 제공고시------->
+                <div class="informationbox2">
+                    <p>상품 정보 제공 고시</p>
+                    <table>
+                        <tr>
+                            <td>품명 및 모델명</td>
+                            <td>상세 내용 참조</td>
+                        </tr>
+
+                        <tr>
+                            <td>법의 의한 인증, 허가 확인사항</td>
+                            <td>해당 사항 없음</td>
+                        </tr>
+
+                        <tr>
+                            <td>제조국 또는 원산지</td>
+                            <td>중국OEM</td>
+                        </tr>
+
+                        <tr>
+                            <td>제조자</td>
+                            <td>루시아이(LUXIAI)</td>
+                        </tr>
+
+                        <tr>
+                            <td>AS 책임자/전화번호</td>
+                            <td>1533-7728</td>
+                        </tr>
+
+                        <tr>
+                            <td>상품 재질</td>
+                            <td>상세 내용 참조</td>
+                        </tr>
+
+                        <tr>
+                            <td>상품 사이즈</td>
+                            <td>상세 내용 참조</td>
+                        </tr>
+                    </table>
+                </div>
+
+
+                <!------구매리뷰------->
+                <div id="review">
+                    <div class="reviewtop">
+                        <span>구매 리뷰</span>
+                        <span>리뷰 작성하고 추가 적립 받으세요!</span>
+                        <button>리뷰 작성하기</button>
+                    </div>
+
+                    <div class="reviewmiddel">
+                        <p>4.0</p>
+                        <span>4개의 리뷰 더 보기</span>
+                    </div>
+
+                    <div class="reviewbottom">
+                        <span>달수프</span> <span>3달전</span> <span>★★★★★</span><br><br>
+                        <div class="bottomtext">
+                            책상 한켠에 북스탠드로 책을 꽂아 놓고 그 위에…대충 탁상 달력을 올리고 살았더니.. 먼지와.. 늘 반복되는 달력 추락.. 고통받다 이 제품을 발견하고 반갑게
+                            구매했습니다. 결과는 대만족. 조립도 어렵지 않고 소재도 책 넣을 만큼 튼튼해요. 크기도 책을 꽂을 만큼 충분해요. 왜 다른 케이스보다 비싼지 알겠어요. 투명하고
+                            튼튼한데 문까지 달린건 이거 말고 찾을수 없었어요. 책보다 문구류 보관이 더 시급해서 일단 수납해 줬고 달력도 눈이 바로 닿는 곳에 시원하게 놓게 되었어요.
+                            청소하기도 좋네요. 책을 가득 넣은 케이스를 위로 2단 쌓는건 안 하는게 좋겠지만 다른 걸 넣고 위로 쌓는건 전혀 문제 없을 듯.
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!------Q&A------->
+            <div class="qna">
+                <div class="qnatop">
+                    <span>Q%A 상품 문의</span> <button>Q&A 작성하기</button>
+                </div>
+                <p>작성된 Q&A가 없습니다.</p>
+                <div class="qnabottom">
+                    <p>배송/교환/반품 정보</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--------------------하단--------------------------->
+    <div id="footer">
+        <div class="footertop">
+            <div class="notice">
+                <div class="notice1">
+                    <h5>공지사항</h5>
+                </div>
+                <p>2023 설 연휴 안내<br>
+                    회원 포인트 사용 정책 변경 안내<br>
+                    커뮤니티 서비스 종료 안내<br>
+                    개인정보 처리방침 변경안내<br>
+                    2022 추석 연휴 안내</p>
+            </div>
+
+
+            <div class="customer">
+                <div class="customericon">
+                    <h5>고객센터</h5>
+                    <img src="img/customericon.png" alt="이미지">
+                    <br><br>
+                </div>
+                <p>1522-7966</p><br><br>
+                <p>평일 10:00 ~ 17:00<br>
+                    주말 및 공휴일 제외<br>
+                    점심시간 : 12:30 ~ 13:30</p>
+            </div>
+            <div class="footericon">
+                <div class="snsbox">
+                    <img src="img/snsicon_1.png" alt="인스타그램 아이콘">
+                </div>
+                <div class="snsbox">
+                    <img src="img/snsicon_2.png" alt="페이스북 아이콘">
+                </div>
+                <div class="snsbox">
+                    <img src="img/snsicon_3.png" alt="네이버 아이콘">
+                </div>
+            </div>
+        </div>
+
+        <div class="footerbottom">
+            <ul>
+                <li>이용약관</li>
+                <li>|</li>
+                <li>제휴문의</li>
+                <li>|</li>
+                <li>입점문의</li>
+                <li>|</li>
+                <li>개인정보처리방침</li>
+                <li>|</li>
+                <li>회사소개</li>
+            </ul>
+
+            <br><br>
+            <p>대표이사:길경환 사업자등록번호:142-81-50856 통신판매업신고:2022-서울강남-06224<br>
+                주소:서울특별시 강남구 언주로 417, 더체크빌딩 3층<br>
+                개인정보관리책임자:길경<br>
+                안전거래를 위해 현금 등으로 결제 시 저희 쇼핑몰에서 가입한 KG 이니시스의 구매안전 서비스를 이용하실 수 있습니다.</p>
+        </div>
+    </div>
+    <div class="lastline">
+        <span>Ⓒ집꾸미기 ALL RIGHTS RESERVED.</span><span>Ⓒ집꾸미기 ALL RIGHTS RESERVED.</span><span>Ⓒ집꾸미기 ALL RIGHTS
+            RESERVED.</span>
+        <span>Ⓒ집꾸미기 ALL RIGHTS RESERVED.</span><span>Ⓒ집꾸미기 ALL RIGHTS RESERVED.</span><span>Ⓒ집꾸미기 ALL RIGHTS
+            RESERVED.</span>
+        <span>Ⓒ집꾸미기 ALL RIGHTS RESERVED.</span>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,233 @@
+@charset "utf-8";
+
+* { font-family:"spoqa han san neo", sans-serif;}
+
+
+/*******************헤더********************/
+#headertop {width:100%; height:96px; margin:0 auto;}
+#headercenter {width:1260px; height:96px; margin:0 auto;}
+.logo {width:190px; height:50px; margin:30px 0 0 0px; float:left; }
+.logo  a  img {width:100%; height:100%;}
+
+.search {width:350px; height:44px; background-color:rgb(248, 248, 248); border:1px solid rgb(212, 212, 212); border-radius:40px; float:left; margin: 32px 0 0 10px;}
+.search a img {width:25px; height:25px; float:left; margin:9px 0 0 11px; opacity:0.3;}
+.search a span {float:left; text-decoration:none; color: rgb(169, 169, 169); font-weight:bold; font-size: 16px; margin:15px 0 0 10px;}
+.headericon a img {width:38px; height:38px; float:right; margin:30px 20px 0 0px;}
+
+#headerbottom {width:100%; height:53px; margin:0 auto; box-shadow: 0px 3px 5px 0px rgba(167, 167, 167, 0.2); border-top:1px solid #e8e8e8;}
+#nav {width:1260px; height:53px; margin:0 auto;}
+#nav a img {width:30px; height:30px; float:left; margin:12px 0 0 3px;}
+
+.leftnav > ul > li {text-decoration:none; float:left; font-size:17px; color:#000; font-weight:800; margin:18px 7px 0 7px; list-style:none;}
+.leftnav > ul > li > a {text-decoration:none; float:left; font-size:17px; color:#000; font-weight:bold; margin:1px 7px 0 7px; list-style:none;}
+.leftnav > ul > li > a:hover {color:rgb(220, 53, 53); }
+
+.rightnav > ul > li {text-decoration:none; float:right; font-size:17px; color:#000; font-weight:bold; margin:12px 7px 0 7px; list-style:none;}
+.rightnav > ul > li > a {text-decoration:none; float:right; font-size:17px; color:#000; font-weight:bold; margin:1px 7px 0 7px; list-style:none;}
+.login-button {width:100px; height:23px; border-radius:40px; background-color:#4f4f4f; border:none; float:right; margin:10px 10px 0 0px; cursor:pointer; padding:10px 0 0 10px ;}
+.login-button > p > a {text-decoration:none; color:#fff; font-weight:900;}
+
+
+
+
+
+/*******************슬라이더********************/
+#slider {width:100%px; height:500px; background-image:url("img/slider.png"); margin:0 auto;}
+#slider img {width:100%; height:100%;}
+
+
+
+
+
+/**********************메인*********************/
+#wrap {width:100%; height:3650px;}
+
+
+#contents1 {width:100%; height:800px; position:relative; margin:0 auto;}
+
+/***메뉴바***/
+#menu {width:1240px; height:128px; background-color:#fff; position:relative; margin:0 auto; border-radius:25px;}
+
+#leftmenu {width:600px; height:120px; margin:5px 0 0 20px;  float:left;}
+#leftmenu .icon {width:100px; height:120px; float:left; margin:0 9px 0 9px;}
+#leftmenu .icon a img {width:70px; height:70px; margin:10px 0 0 15px; border-radius:50px;} 
+#leftmenu .icon span {font-size:15px; margin:10px 0 0 20px; font-weight:900; color:#3c3c3c; float:left; text-align:center;}
+#leftmenu .icon:nth-child(3) span {font-size:15px; margin:10px 0 0 27px; font-weight:900; color:#3c3c3c; float:left; text-align:center;}
+#leftmenu .icon:last-child span {font-size:15px; margin:10px 0 0 27px; font-weight:900; color:#3c3c3c; float:left; text-align:center;}
+
+#center {width:1px; height:80px; margin:29px 0 0 0px; float:left; background-color: #696969;}
+
+#rightmenu {width:530px; height:120px; float:right;}
+#rightmenu .text {width:250px; height:110px; float:left;}
+#rightmenu .text p {font-size:18px; font-weight:550; color:#3c3c3c; float:left; margin:30px 0 0 0;}
+#rightmenu .text span {font-size:20px; font-weight:bold; color:#3c3c3c; float:left; margin:10px 0 0 0;}
+#rightmenu .text a {font-size:18px; font-weight:550; color:#3c3c3c;  float:left; float:left; margin:11px 0 0 7px;}
+#rightmenu button {width:130px; height:40px; background-color:#e46666; color:#fff; border:none; border-radius:40px; float:right; margin:65px 15px 0 0; font-weight:900; font-size:17px; cursor:pointer;}
+
+
+
+/***투데이***/
+#contents1 {width:100%; height:800px;  background-color:rgba(242, 242, 242, 0.726); margin:-10px 0 0 0; padding:50px 0 0 0;}
+#wrap1 {width:1250px; height:400px; margin:0 auto;}
+.textbox {width:100%; height:70px; margin:40px 0 0 0;}
+.textbox span {font-size:28px; font-weight:900; float:left; margin:10px 0 10px 0px;}
+.textbox a {font-size:16px; font-weight:bold; color: #626262; float:left; margin:0px 0 0 0px;}
+.textbox button {width:100px; height:40px; background-color:transparent; border-radius:40px; border:1px solid #8f8e8e; float:right; margin:-30px 20px 0 0px; cursor:pointer;}
+
+#wrap1 .box {width:280px; height:450px; background-color:#fff; float:left; margin:25px 30px 0 0px; border-radius:15px;
+overflow:hidden; position: relative;}
+#wrap1 .box .imgbox {width:280px; height:300px; cursor:pointer; overflow:hidden;}
+.box img {width:100%; height :100%;}
+
+#wrap1 > .box > .imgbox > span {width:55px; height:10px; font-size:13px; background-color:rgb(77, 77, 77); color:#fff; border:1px solid #e8e8e8; border-radius:20px; opacity:0.6; padding:10px; position: absolute; top:253px; left:10px;}
+
+#wrap1 > .box > .flexbox {width:100%; height:100px;}
+#wrap1 > .box > .flexbox > p {width:100%; color: #8e8e8e; font-size:12px; font-weight:800; float:left; margin:20px 0 2px 20px; display:block;}
+#wrap1 > .box > .flexbox > h5 {width:100%; color: #555555; font-size:15px; font-weight:800; float:left; margin:10px 0 2px 20px;}
+#wrap1 > .box > .flexbox > span {color:rgb(255, 0, 72); font-size:25px; font-weight:900; float:left; margin:8px 0 0 20px;}
+#wrap1 > .box > .flexbox > a {width:150px; color:rgb(57, 57, 57); font-size:20px; font-weight:900; float:left; margin:13px 0 0 10px;}
+
+
+
+/***카테고리***/
+#cartegori {width:100%; height:400px; position:relative; margin:0 auto;}
+#cartegori > #box {width:1260px; height:400px; position:relative; margin:0 auto;}
+#cartegori > #box > h1 {width:100%; font-size:25px; color:#000; float:left; margin:80px 0 0 80px;}
+.categori {width:1100px; height:200px; float:left; margin:50px 0 0 70px;}
+
+.categoribox {width:90px; height:160px; float:left; margin:10px;}
+.categoribox > a > img {width:90px; height:90px; border-radius:50px; float:left; margin:10px 0 10px 0; background-color:#e8eff3;}
+.categoribox > p {font-size:15px; font-weight:800; color:#000; text-align:center; }
+
+
+
+#exhibitioncenter {width:1240px; height:500px; margin:0 auto;}
+
+
+
+/***기획전***/
+#exhibition {width:100%; height:500px; position:relative; margin:0 auto; background-size:cover; padding:50px 0 0 0; background-color: #5e7a71;}
+
+
+
+#exhibitioncenter {width:1240px; height:500px; margin:0 auto;}
+
+#exhibitioncenter > .exhibitiontext {width:280px; height:400px; float:left; margin:0 30px 0 0; padding:60px 0 0 0;}
+.exhibitiontext > span {color:#fff; margin:30px 0 0 0;}
+.exhibitiontext > span:first-child {font-size:12px; margin:0 0 30px 0px;}
+.exhibitiontext > span:nth-child(4) {font-size:25px; font-weight:900; margin:0 0 30px 0;}
+.exhibitiontext > span:nth-child(8) {font-size:14px;}
+.exhibitiontext > span:last-child {width:100px; height:40px; font-size:15px; font-weight:700; }
+.exhibition1 {width:180px; height:28px; border:1px solid #fff; padding:9px 0 0 0; margin:20px 0 0 0;}
+.exhibition1 span {font-size:15px; font-weight:700; color:#fff; margin:0 0 0 20px;}
+
+.box2 {width:280px; height:450px; background-color:#fff; float:left; margin:25px 30px 0 0px; border-radius:15px;
+    overflow:hidden;}
+.imgbox2 {width:280px; height:300px; cursor:pointer; overflow:hidden;}
+.imgbox2 img {width:100%; height :100%;}
+
+.box2 > .flexbox {width:100%; height:100px;}
+.box2 > .flexbox > p {width:100%; color: #8e8e8e; font-size:12px; font-weight:800; float:left; margin:20px 0 2px 20px; display:block;}
+.box2 > .flexbox > h5 {width:100%; color: #555555; font-size:15px; font-weight:800; float:left; margin:10px 0 2px 20px;}
+.box2 > .flexbox > span {color:rgb(255, 0, 72); font-size:25px; font-weight:900; float:left; margin:8px 0 0 20px;}
+.box2 > .flexbox > a {width:150px; color:rgb(57, 57, 57); font-size:20px; font-weight:900; float:left; margin:13px 0 0 10px;}
+
+
+
+
+/***상품들***/
+#contents2 {width:1260px; height:550px; margin:0 auto; padding:50px 0 0 0px; border-top:#7c7a40;}
+#contents2  > .textbox {width:100%; height:45px; }
+#contents2  > .textbox > span {font-size:26px; font-weight:800; float:left; margin:5px 0 5px 30px; }
+#contents2 > .textbox > button {width:70px; height:30px; background-color:#e46666; color:#fff; border:none; border-radius:40px; float:left; margin:5px 0 0 10px; font-weight:700;}
+
+#contents2 > .box {width:280px; height:450px; background-color:#fff; float:left; margin:25px 0px 0 28px; border-radius:15px;
+    overflow: hidden; position: relative; cursor:pointer;}
+#contents2 > .box > .imgbox {width:280px; height:300px; overflow:hidden; cursor:pointer; border-radius:15px;}
+.imgbox img {min-width:100%; min-height :100%; transform:scale(1);  transition: all 0.3s ease-in-out;}
+.imgbox > img:hover {transform:scale(1.2);}
+
+
+#contents2 > .box > .flexbox {width:100%; height:100px;}
+#contents2 > .box > .flexbox > p {width:100%; color: #8e8e8e; font-size:12px; font-weight:800; float:left; margin:20px 0 2px 20px; display:block;}
+#contents2 > .box > .flexbox > h5 {width:100%; color: #555555; font-size:15px; font-weight:800; float:left; margin:10px 0 2px 20px;}
+#contents2 > .box > .flexbox > span {color:rgb(255, 0, 72); font-size:25px; font-weight:900; float:left; margin:8px 0 0 20px;}
+#contents2 > .box > .flexbox > a {width:150px; color:rgb(57, 57, 57); font-size:20px; font-weight:900; float:left; margin:13px 0 0 10px;}
+
+#contents2 > .box > .flexbox > .delivery { width:40px; height:20px; background-color:#e2e2e2; border-radius:5px; text-align: center; margin:60px 0 0 20px;}
+#contents2 > .box > .flexbox > .delivery > span {color:red; font-size:11px; font-weight:bold;}
+
+
+
+
+#contents3 {width:1260px; height:550px; margin:0 auto; padding:50px 0 0 0px;}
+#contents3  > .textbox {width:100%; height:45px; }
+#contents3  > .textbox > span {font-size:26px; font-weight:800; float:left; margin:5px 0 5px 30px; }
+#contents3 > .textbox > button {width:70px; height:30px; background-color:#e46666; color:#fff; border:none; border-radius:40px; float:left; margin:5px 0 0 10px; font-weight:700;}
+
+#contents3 > .box {width:280px; height:450px; background-color:#fff; float:left; margin:25px 0px 0 28px; border-radius:15px;
+    overflow: hidden; position: relative; cursor:pointer;}
+#contents3 > .box > .imgbox {width:280px; height:300px; overflow:hidden; cursor:pointer; border-radius:15px;}
+.imgbox img {min-width:100%; min-height :100%; transform:scale(1);  transition: all 0.3s ease-in-out;}
+.imgbox > img:hover {transform:scale(1.2);}
+
+#contents3 > .box > .flexbox {width:100%; height:100px;}
+#contents3 > .box > .flexbox > p {width:100%; color: #8e8e8e; font-size:12px; font-weight:800; float:left; margin:20px 0 2px 20px; display:block;}
+#contents3 > .box > .flexbox > h5 {width:100%; color: #555555; font-size:15px; font-weight:800; float:left; margin:10px 0 2px 20px;}
+#contents3 > .box > .flexbox > span {color:rgb(255, 0, 72); font-size:25px; font-weight:900; float:left; margin:8px 0 0 20px;}
+#contents3 > .box > .flexbox > a {width:150px; color:rgb(57, 57, 57); font-size:20px; font-weight:900; float:left; margin:13px 0 0 10px;}
+
+#contents3 > .box > .flexbox > .delivery { width:40px; height:20px; background-color:#e2e2e2; border-radius:5px; text-align: center; margin:60px 0 0 20px;}
+#contents3 > .box > .flexbox > .delivery > span {color:red; font-size:11px; font-weight:bold;}
+
+
+
+#contents4 {width:1260px; height:550px; margin:0 auto; padding:50px 0 0 0px;}
+#contents4  > .textbox {width:100%; height:45px; }
+#contents4  > .textbox > span {font-size:26px; font-weight:800; float:left; margin:5px 0 5px 30px; }
+#contents4 > .textbox > button {width:70px; height:30px; background-color:#e46666; color:#fff; border:none; border-radius:40px; float:left; margin:5px 0 0 10px; font-weight:700; cursor:pointer;}
+
+#contents4 > .box {width:280px; height:450px; background-color:#fff; float:left; margin:25px 0px 0 28px; border-radius:15px;
+    overflow: hidden; position: relative; cursor:pointer;}
+#contents4 > .box > .imgbox {width:280px; height:300px; overflow:hidden; cursor:pointer; border-radius:15px;}
+.imgbox img {min-width:100%; min-height :100%; transform:scale(1);  transition: all 0.3s ease-in-out;}
+.imgbox > img:hover {transform:scale(1.2);}
+
+#contents4 > .box > .flexbox {width:100%; height:100px;}
+#contents4 > .box > .flexbox > p {width:100%; color: #8e8e8e; font-size:12px; font-weight:800; float:left; margin:20px 0 2px 20px; display:block;}
+#contents4 > .box > .flexbox > h5 {width:100%; color: #555555; font-size:15px; font-weight:800; float:left; margin:10px 0 2px 20px;}
+#contents4 > .box > .flexbox > span {color:rgb(255, 0, 72); font-size:25px; font-weight:900; float:left; margin:8px 0 0 20px;}
+#contents4 > .box > .flexbox > a {width:150px; color:rgb(57, 57, 57); font-size:20px; font-weight:900; float:left; margin:13px 0 0 10px;}
+
+#contents4 > .box > .flexbox > .delivery { width:40px; height:20px; background-color:#e2e2e2; border-radius:5px; text-align: center; margin:60px 0 0 20px;}
+#contents4 > .box > .flexbox > .delivery > span {color:red; font-size:11px; font-weight:bold;}
+
+
+
+
+
+/**********************하단*********************/
+#footer {width:100%; height:390px; background-color:rgb(246, 246, 246);}
+.footertop {width:1260px; height:180px; background-color:rgb(246, 246, 246); margin:0 auto;}
+.notice {width:370px; height:180px; float:left; margin:10px 0 0 0;}
+.notice1 {width:70px; height:30px; margin:20px 0 0 0;}
+.notice h5 {font-size:15px; font-weight:800; float:left; color:#000;}
+.notice p {font-size:12px; color:#696969; float:left; margin:10px 0 0 0; line-height:1.5;}
+
+.customer {width:370px; height:180px; float:left; margin:10px 0 0 0;}
+.customericon {width:370px; height:30px; float: left; margin:15px 0 1px 0;}
+.customericon h5 {font-size:15px; font-weight:800; float:left; color:#000; margin:1px 0 0;}
+.customericon img {width:15px; height:15px; float:left; margin:0 0 0 10px; }
+.customer p {font-size:15px; font-weight:800; float:left; color:#000; margin:0px 0 0 0;}
+.customer a {font-size:12px; color: #696969; float:left; margin:20px 0 0 0; line-height:1.5;}
+
+.footericon {width:400px; height:90px; float:right; margin:10px 0 0 0;}
+.snsbox {width:30px; height:30px; background-color: #4f4f4f; border-radius:50px; float:right; margin:5px;}
+.snsbox img {width:15px; height:15px; margin:8px;}
+
+
+.footerbottom {width:1260px; height:140px; background-color:rgb(246, 246, 246); margin:0 auto; padding:30px 0 0 0;}
+.footerbottom ul li {text-decoration:none; float:left; font-size:13px; color:#000; font-weight:800; list-style:none; margin:0 5px 0 4px;}
+.footerbottom p {font-size:12px; color: #696969; float:left; line-height:2; margin:8px 0 0 0;}
+.lastline {width:100%; height:50px; background-color: #202020;}
+.lastline span {font-size:13px; color:#dbdbdb; float:left; margin:20px 63px 10px 0;}

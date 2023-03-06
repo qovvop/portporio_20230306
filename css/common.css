@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/*******************헤더********************/
+#headertop {width:100%; height:96px; margin:0 auto;}
+#headercenter {width:1260px; height:96px; margin:0 auto;}
+.logo {width:190px; height:50px; margin:30px 0 0 0px; float:left; }
+.logo  a  img {width:100%; height:100%;}
+
+.search {width:350px; height:44px; background-color:rgb(248, 248, 248); border:1px solid rgb(212, 212, 212); border-radius:40px; float:left; margin: 32px 0 0 10px;}
+.search a img {width:25px; height:25px; float:left; margin:9px 0 0 11px; opacity:0.3;}
+.search a span {float:left; text-decoration:none; color: rgb(169, 169, 169); font-weight:bold; font-size: 16px; margin:15px 0 0 10px;}
+.headericon a img {width:38px; height:38px; float:right; margin:30px 20px 0 0px;}
+
+#headerbottom {width:100%; height:53px; margin:0 auto; box-shadow: 0px 3px 5px 0px rgba(167, 167, 167, 0.2); border-top:1px solid #e8e8e8;}
+#nav {width:1260px; height:53px; margin:0 auto;}
+#nav a img {width:30px; height:30px; float:left; margin:12px 0 0 3px;}
+
+.leftnav > ul > li {text-decoration:none; float:left; font-size:17px; color:#000; font-weight:800; margin:18px 7px 0 7px; list-style:none;}
+.leftnav > ul > li > a {text-decoration:none; float:left; font-size:17px; color:#000; font-weight:bold; margin:1px 7px 0 7px; list-style:none;}
+.leftnav > ul > li > a:hover {color:rgb(220, 53, 53); }
+
+.rightnav > ul > li {text-decoration:none; float:right; font-size:17px; color:#000; font-weight:bold; margin:12px 7px 0 7px; list-style:none;}
+.rightnav > ul > li > a {text-decoration:none; float:right; font-size:17px; color:#000; font-weight:bold; margin:1px 7px 0 7px; list-style:none;}
+.login-button {width:100px; height:23px; border-radius:40px; background-color:#4f4f4f; border:none; float:right; margin:10px 10px 0 0px; cursor:pointer; padding:10px 0 0 10px ;}
+.login-button > p > a {text-decoration:none; color:#fff; font-weight:900;}
+
+
+
+/**********************하단*********************/
+#footer {width:100%; height:390px; background-color:rgb(246, 246, 246);}
+.footertop {width:1260px; height:180px; background-color:rgb(246, 246, 246); margin:0 auto;}
+.notice {width:370px; height:180px; float:left; margin:10px 0 0 0;}
+.notice1 {width:70px; height:30px; margin:20px 0 0 0;}
+.notice h5 {font-size:15px; font-weight:800; float:left; color:#000;}
+.notice p {font-size:12px; color:#696969; float:left; margin:10px 0 0 0; line-height:1.5;}
+
+.customer {width:370px; height:180px; float:left; margin:10px 0 0 0;}
+.customericon {width:370px; height:30px; float: left; margin:15px 0 1px 0;}
+.customericon h5 {font-size:15px; font-weight:800; float:left; color:#000; margin:1px 0 0;}
+.customericon img {width:15px; height:15px; float:left; margin:0 0 0 10px; }
+.customer p {font-size:15px; font-weight:800; float:left; color:#000; margin:0px 0 0 0;}
+.customer a {font-size:12px; color: #696969; float:left; margin:20px 0 0 0; line-height:1.5;}
+
+.footericon {width:400px; height:90px; float:right; margin:10px 0 0 0;}
+.snsbox {width:30px; height:30px; background-color: #4f4f4f; border-radius:50px; float:right; margin:5px;}
+.snsbox img {width:15px; height:15px; margin:8px;}
+
+
+.footerbottom {width:1260px; height:140px; background-color:rgb(246, 246, 246); margin:0 auto; padding:30px 0 0 0;}
+.footerbottom ul li {text-decoration:none; float:left; font-size:13px; color:#000; font-weight:800; list-style:none; margin:0 5px 0 4px;}
+.footerbottom p {font-size:12px; color: #696969; float:left; line-height:2; margin:8px 0 0 0;}
+.lastline {width:100%; height:50px; background-color: #202020;}
+.lastline span {font-size:13px; color:#dbdbdb; float:left; margin:20px 63px 10px 0;}
